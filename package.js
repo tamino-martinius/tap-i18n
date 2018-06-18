@@ -12,7 +12,7 @@ client = 'client';
 Package.onUse(function (api) {
   api.versionsFrom('0.9.4');
 
-  api.use('coffeescript', both);
+  api.use('coffeescript@2.0.0', both);
   api.use('underscore', both);
   api.use('meteor', both);
 
@@ -52,7 +52,7 @@ Package.onUse(function (api) {
 
 Package.registerBuildPlugin({
   name: 'tap-i18n-compiler',
-  use: ['coffeescript', 'underscore', 'aldeed:simple-schema@1.3.0', 'check@1.0.3', 'templating'],
+  use: ['coffeescript@2.0.0', 'underscore', 'aldeed:simple-schema@1.3.0', 'check@1.0.3', 'templating'],
   npmDependencies: {
     "node-json-minify": "0.1.3-a",
     "yamljs": "0.2.4"
