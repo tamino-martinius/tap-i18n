@@ -2,7 +2,7 @@ Package.describe({
   name: 'zaku:i18n',
   summary: 'A comprehensive internationalization solution for Meteor',
   version: '1.8.1',
-  git: 'https://github.com/TAPevents/tap-i18n'
+  git: 'https://github.com/tamino-martinius/tap-i18n'
 });
 
 both = ['server', 'client'];
