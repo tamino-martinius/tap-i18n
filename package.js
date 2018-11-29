@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'tap:i18n',
+  name: 'zaku:i18n',
   summary: 'A comprehensive internationalization solution for Meteor',
   version: '1.8.1',
   git: 'https://github.com/TAPevents/tap-i18n'
